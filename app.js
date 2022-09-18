@@ -1,9 +1,13 @@
 const express = require('express');
 const app = express();
-const port = 8081
+const port = 8081;
 
 app.get('/', (req, res) => {
     res.send('Test app');
+})
+
+app.get('/hello', (req, res) => {
+    res.send('Hello World!');
 })
 
 app.listen(port, ()=> {
