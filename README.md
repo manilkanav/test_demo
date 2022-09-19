@@ -1,0 +1,3 @@
+# Sample Repository
+
+Just to practice git and other stuff.... 
